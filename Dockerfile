@@ -1,6 +1,7 @@
 FROM php:8.1-fpm
 
-
+ENV USER=root
+ENV GROUP=root
 
 
 # Install system dependencies
