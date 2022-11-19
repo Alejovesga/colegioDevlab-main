@@ -3,7 +3,7 @@
     "scripts": {
         "dev": "vite",
         "build": "vite build",
-        "start": "blitz start --port ${PORT-3000}"
+        "start": "blitz start --port ${PORT-80}"
     },
     "devDependencies": {
         "@popperjs/core": "^2.10.2",
