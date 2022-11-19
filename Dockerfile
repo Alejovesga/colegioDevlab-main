@@ -1,7 +1,6 @@
 FROM php:8.1-fpm
 
-ENV USER=www
-ENV GROUP=www
+
 
 
 # Install system dependencies
@@ -40,7 +39,7 @@ USER ${USER}
 
 # Copy permission to selected user
 COPY --chown=${USER}:${GROUP} . .
-LISTEN 80
+
 EXPOSE 80
 
 CMD ["php-fpm"]
