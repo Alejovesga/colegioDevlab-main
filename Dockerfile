@@ -41,6 +41,6 @@ USER ${USER}
 # Copy permission to selected user
 COPY --chown=${USER}:${GROUP} . .
 
-PORT 47531
+EXPOSE 47531
 
 CMD ["php-fpm"]
