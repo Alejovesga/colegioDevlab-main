@@ -1,6 +1,6 @@
 FROM php:8.1-fpm
 
-ENV USER=www
+ENV USER=www-data
 ENV GROUP=www
 
 
