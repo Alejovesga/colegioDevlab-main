@@ -1,7 +1,7 @@
 FROM php:8.1-fpm
 
 ENV USER=www-data
-ENV GROUP=www
+ENV GROUP=www-data
 
 
 # Install system dependencies
