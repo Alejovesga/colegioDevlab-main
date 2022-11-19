@@ -40,7 +40,7 @@ USER ${USER}
 
 # Copy permission to selected user
 COPY --chown=${USER}:${GROUP} . .
-
+npm run start
 EXPOSE 8000
 
 CMD ["php-fpm"]
